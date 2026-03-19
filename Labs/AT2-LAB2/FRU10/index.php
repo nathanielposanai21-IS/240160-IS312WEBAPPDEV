@@ -9,7 +9,7 @@ Unit: IS312 Web Application Development
 <head>
     <meta charset="UTF-8">
     <title>IS312 Lab 2 - Home</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="FRU10/style.css">
 </head>
 <body>
     <h1>IS312 Web Application Development</h1>
