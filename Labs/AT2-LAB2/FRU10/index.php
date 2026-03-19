@@ -1,0 +1,23 @@
+<!--
+Author: Nathaniel POSANAI
+Date: 19th March 2026
+Unit: IS312 Web Application Development
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IS312 Lab 2 - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>IS312 Web Application Development</h1>
+    <h2>Lab 2 - Web Application</h2>
+
+    <div class="button-container">
+        <a href="new-program.html" class="nav-button">Add New Program</a>
+        <a href="student-listing.php" class="nav-button">View Student Listing</a>
+    </div>
+</body>
+</html>
