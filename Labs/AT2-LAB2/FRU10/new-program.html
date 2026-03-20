@@ -1,0 +1,40 @@
+<!-- Author: Nathanie. POSANAI -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Program</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        function validateForm() {
+            let code = document.forms["progForm"]["programCode"].value;
+            let name = document.forms["progForm"]["programName"].value;
+
+            if (code == "" || name == "") {
+                alert("All fields must be filled!");
+                return false;
+            }
+        }
+    </script>
+</head>
+
+<body>
+<div class="container">
+<h1>Add New Program</h1>
+
+<form name="progForm" action="add-newprogram.php" method="POST" onsubmit="return validateForm()">
+    
+    <label>Program Code:</label>
+    <input type="text" name="programCode">
+
+    <label>Program Name:</label>
+    <input type="text" name="programName">
+
+    <button type="submit">Submit</button>
+
+</form>
+
+</div>
+</body>
+</html>
